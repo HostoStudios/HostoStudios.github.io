@@ -1,0 +1,337 @@
+body {
+  background-image:url('/Files/background/carbon.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+.standard.text{
+  margin: 15px 20px;
+  vertical-align: text-top;
+  color: white;
+  font-family: 'Source Sans Pro',sans-serif;
+  text-indent: 4em;
+}
+.h1.text{
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-weight: normal;
+  margin-top:-1;
+}
+.header{
+  display: block;
+  background-color: rgba(26, 26, 26, 0.719);
+  width:100%;
+  height: 40px;
+  position:fixed;
+  z-index:1;
+}
+.navigation{
+  float:right;
+  font-family: 'Source Sans Pro',sans-serif;
+  background-color: transparent;
+  margin:0;
+margin-right:-160px;
+}
+.nav.a{
+  height: 100%;
+  padding-right: 2.5px;
+  background-color: transparent;
+  border-color:transparent;
+  float:right;
+  cursor: pointer;
+transition-duration: 0.2s;
+}
+.nav.a:hover{
+background-color:#b2ffa5;
+}
+.buttontext{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 15px;
+  color:white;
+  margin:0 auto;
+  padding: 11px;
+transition-duration: 0.2s;
+}
+.buttontext:hover{
+color: black;
+}
+
+.headertext{
+  float: left;
+  margin-top:20px;
+  margin-left:0;
+  line-height: 0;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 18px;
+  color:white;
+  padding:1.5px
+
+}
+
+.headerLogoHosto {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-image: url(https://cdn.discordapp.com/attachments/671600417712504853/691526344055717998/untitled.png);
+  background-size: 100%;
+  margin:5px;
+  float: left;
+
+}
+/*Page*/
+.index.introdution.photo {
+  display: block;
+  width: 100%;
+  height: 450px;
+  background-image: url(https://cdn.discordapp.com/attachments/671600417712504853/671603351707844609/IMG_5573.jpg);
+  background-size: 100%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  border-color: #b2ffa5;
+  border-width: 1.5px;
+  border-bottom-style: solid;
+}
+
+.index.introduction.box.text {
+  display: block;
+  width:100%;
+  height: 175px;
+  background-color: rgb(50,50,50);
+  border-bottom:solid 1px #b2ffa5;
+  padding-top:5px;
+}
+
+.music-intro {
+  display: block;
+  width: 100%;
+  height: 450px;
+  background-image: url(https://images.unsplash.com/photo-1535406208535-1429839cfd13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  background-size: 100%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  border-color: #b2ffa5;
+  border-width: 1.5px;
+  border-bottom-style: solid;
+}
+.links{
+  height: 30px;
+  width:215px;
+  background-color: tran;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  padding:10px;
+}
+.sociallinkbutton{
+  width:40px;
+  height: 40px;
+  margin-left:10px;
+  position: relative;
+  background-color: #b2ffa500;
+  border:1px;
+  float: left;
+  cursor: pointer;
+  margin-top:-2.5px;
+}
+.socialimg:hover{
+  background-color: #ffffff;
+}
+.socialimg{
+  display: inline;
+  margin-left:-5px;
+  border-radius: 20px;
+}
+.dropdown.text{
+  color: rgb(0, 0, 0);
+  font-family: 'Source Sans Pro',sans-serif;
+  margin:0 auto;
+  padding:10px;
+  padding-bottom:0;
+  text-align:center;
+}
+ /* Dropdown Button */
+ .menuDropbtn {
+  background-image:url(Files/Icons/Light/menu.png);
+  background-size:65%;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  background-color: transparent;
+}
+
+/* Dropdown button on hover & focus */
+
+.menuDropbtn:hover, .dropbtn:focus {
+  background-color:#b2ffa5 ;
+  background-image:url(Files/Icons/Light/d-menu.png);
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.menuDropdown {
+  display:block;
+  position: relative;
+  width: 200px;
+  float: right;
+z-index: -1;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.menu-dropdown-content {
+  display: none;
+  position: relative;
+  background-color:#b2ffa5 ;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  float:right;
+}
+
+/* Links inside the dropdown */
+.menu-dropdown-content a {
+  color: black;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+  border-top:solid 1px gray;
+}
+
+
+/* Change color of dropdown links on hover */
+.menu-dropdown-content a:hover {background-color: rgb(255, 255, 255)}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:inline-block;} 
+/*About us*/
+.bar{
+margin-top:100px;
+width:100%;
+height: 600px;
+border:0;
+border-spacing: 0;
+}
+.bar td{
+  border-top: 1px solid #b2ffa5;
+  border-bottom: 1px solid #b2ffa5;
+  padding:0;
+  margin:0;
+}
+.index.music.photo{
+  width:31.9%;
+  height:100%;
+  background-image: url(https://cdn.discordapp.com/attachments/671600417712504853/693330406380011520/IMG_5525.jpg);
+  background-size: 100%;
+  border-right: 1px solid #b2ffa5;
+}
+.index.music.text{
+width:68%;
+  height:100%;
+  background-color:rgb(50,50,50);
+}
+
+/*Our work*/
+/*Contact*/
+.song-emb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.indexbarform{
+  margin-top:100px;
+  margin-bottom:50px;
+  display: block;
+  width: 96%;
+  height: 300px;
+  background-color:rgba(185, 185, 185, 0.472);
+  padding:25px;
+  border-top: 1px solid #b2ffa5;
+  border-bottom: 1px solid #b2ffa5;
+}
+.form{
+  display: block;
+  width: 60%;
+  height: 300px;
+  background-color:rgb(50,50,50);
+  padding:25px;
+  position: relative;
+  top:-25px;
+  margin: 0 auto;
+}
+.freebirdFormviewerViewHeaderTitle.exportFormTitle.freebirdCustomFont{
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-weight: normal;
+  margin-top:-1;
+  font-size:28px;
+}
+.freebirdFormviewerViewHeaderDescription{
+  text-align: center;
+  color: rgb(172, 172, 172);
+  font-family: 'Source Sans Pro',sans-serif;
+  font-weight: normal;
+  margin-top:-1;
+}
+.quantumWizTextinputPaperinputInput.exportInput{
+background-color:rgb(99, 99, 99);
+border:1px solid #b2ffa5;
+padding:10px;
+border-radius: 0;
+z-index:10;
+width:350px;
+}
+.quantumWizTextinputPaperinputPlaceholder.exportLabel{
+color:rgb(159, 252, 164);
+margin-top: -40px;
+z-index:1;
+padding:10px;
+}
+.quantumWizTextinputPaperinputPlaceholder.exportLabel{
+  color:rgb(159, 252, 164);
+  margin-top: -40px;
+  z-index:1;
+  padding:10px;
+}
+.freebirdFormviewerViewItemsItemItemTitle.exportItemTitle.freebirdCustomFont{
+  color: white;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size:14px;
+}
+.freebirdFormviewerViewItemsItemItemTitle.exportItemTitle.freebirdCustomFont{
+padding:5px;
+}
+.freebirdFormviewerViewItemsItemRequiredAsterisk{
+color:rgb(175, 0, 0);
+font-family: 'Source Sans Pro',sans-serif;
+font-size:14px;
+}
+.appsMaterialWizButtonPaperbuttonContent.exportButtonContent{
+width:50px;
+height: 25px;
+display: block;
+background-color: #b2ffa5;
+margin: 10px;
+margin-left:0;
+border:0px;
+
+}
+.appsMaterialWizButtonPaperbuttonContent.exportButtonContent{
+  width:50px;
+  height: 25px;
+}
+.freebirdFormviewerViewHeaderRequiredLegend{
+  color:rgb(175, 0, 0);
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size:14px;
+}

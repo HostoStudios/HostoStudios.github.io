@@ -1,0 +1,31 @@
+{
+  "name": "Hosto Studios",
+  "version": "1.0.0",
+  "description": "This is official site for HostoStudios",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [
+    "template",
+    "codesandbox",
+    "static",
+    "Hosto",
+    "HostoStudios",
+    "art",
+    "Artim Dutton"
+  ]
+  ,"author": "Artim Dutton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://hostostudios.github.io/"
+  },
+  "homepage": "https://hostostudios.github.io/index.html",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}
